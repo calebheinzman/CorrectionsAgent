@@ -645,3 +645,115 @@
 {"type": "metric", "timestamp": "2026-01-13T01:37:57.446346+00:00", "name": "agent.answer.tool_calls", "value": 0.0, "dimensions": {"service": "agent"}}
 {"type": "metric", "timestamp": "2026-01-13T01:37:57.447225+00:00", "name": "agent_call.duration_ms", "value": 540.7469272613525, "dimensions": {"service": "orchestrator"}}
 {"type": "metric", "timestamp": "2026-01-13T01:37:57.447367+00:00", "name": "agent_call.tool_calls", "value": 0.0, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:50:04.916425+00:00", "name": "guardrail.safety.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:50:04.917265+00:00", "name": "guardrail.relevance.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:50:05.433246+00:00", "name": "agent_invoke.duration_ms", "value": 495.9149360656738, "dimensions": {"status": "success", "service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:50:05.433897+00:00", "name": "agent.answer.duration_ms", "value": 497.1468448638916, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:50:05.434015+00:00", "name": "agent.answer.tool_calls", "value": 0.0, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:50:05.435006+00:00", "name": "agent_call.duration_ms", "value": 517.2927379608154, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:50:05.435125+00:00", "name": "agent_call.tool_calls", "value": 0.0, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:54:33.063067+00:00", "name": "guardrail.safety.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:54:33.064455+00:00", "name": "guardrail.relevance.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:54:34.448087+00:00", "name": "agent_invoke.duration_ms", "value": 1364.9978637695312, "dimensions": {"status": "success", "service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:54:34.448846+00:00", "name": "agent.answer.duration_ms", "value": 1366.0333156585693, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:54:34.448950+00:00", "name": "agent.answer.tool_calls", "value": 1.0, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:54:34.450310+00:00", "name": "agent_call.duration_ms", "value": 1385.3650093078613, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:54:34.450451+00:00", "name": "agent_call.tool_calls", "value": 1.0, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:08.159107+00:00", "name": "guardrail.safety.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:08.159932+00:00", "name": "guardrail.relevance.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:08.994310+00:00", "name": "agent_invoke.duration_ms", "value": 815.432071685791, "dimensions": {"status": "success", "service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:08.994772+00:00", "name": "agent.answer.duration_ms", "value": 816.5397644042969, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:08.994863+00:00", "name": "agent.answer.tool_calls", "value": 0.0, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:08.996030+00:00", "name": "agent_call.duration_ms", "value": 835.4806900024414, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:08.996136+00:00", "name": "agent_call.tool_calls", "value": 0.0, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:23.655043+00:00", "name": "guardrail.safety.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:23.655529+00:00", "name": "guardrail.relevance.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:24.843956+00:00", "name": "agent_invoke.duration_ms", "value": 1170.4130172729492, "dimensions": {"status": "success", "service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:24.844624+00:00", "name": "agent.answer.duration_ms", "value": 1171.4890003204346, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:24.844705+00:00", "name": "agent.answer.tool_calls", "value": 1.0, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:24.845766+00:00", "name": "agent_call.duration_ms", "value": 1189.7940635681152, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:24.845873+00:00", "name": "agent_call.tool_calls", "value": 1.0, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:28.379405+00:00", "name": "guardrail.safety.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:28.379932+00:00", "name": "guardrail.relevance.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:29.453816+00:00", "name": "agent_invoke.duration_ms", "value": 1055.431842803955, "dimensions": {"status": "success", "service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:29.454400+00:00", "name": "agent.answer.duration_ms", "value": 1056.626319885254, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:29.454466+00:00", "name": "agent.answer.tool_calls", "value": 1.0, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:29.455347+00:00", "name": "agent_call.duration_ms", "value": 1075.1430988311768, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:29.455422+00:00", "name": "agent_call.tool_calls", "value": 1.0, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:36.870373+00:00", "name": "guardrail.safety.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:36.871289+00:00", "name": "guardrail.relevance.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:38.204152+00:00", "name": "agent_invoke.duration_ms", "value": 1314.300298690796, "dimensions": {"status": "success", "service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:38.204952+00:00", "name": "agent.answer.duration_ms", "value": 1315.2458667755127, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:38.205064+00:00", "name": "agent.answer.tool_calls", "value": 1.0, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:38.206293+00:00", "name": "agent_call.duration_ms", "value": 1334.5341682434082, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:38.206498+00:00", "name": "agent_call.tool_calls", "value": 1.0, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:40.006835+00:00", "name": "guardrail.safety.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:40.007606+00:00", "name": "guardrail.relevance.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:40.798928+00:00", "name": "agent_invoke.duration_ms", "value": 773.5109329223633, "dimensions": {"status": "success", "service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:40.799461+00:00", "name": "agent.answer.duration_ms", "value": 774.583101272583, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:40.799566+00:00", "name": "agent.answer.tool_calls", "value": 0.0, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:40.800666+00:00", "name": "agent_call.duration_ms", "value": 792.644739151001, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:55:40.800790+00:00", "name": "agent_call.tool_calls", "value": 0.0, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:57:13.970398+00:00", "name": "guardrail.safety.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:57:13.970940+00:00", "name": "guardrail.relevance.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:57:15.296489+00:00", "name": "agent_invoke.duration_ms", "value": 1307.616949081421, "dimensions": {"status": "success", "service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:57:15.297124+00:00", "name": "agent.answer.duration_ms", "value": 1308.7327480316162, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:57:15.297441+00:00", "name": "agent.answer.tool_calls", "value": 1.0, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:57:15.298631+00:00", "name": "agent_call.duration_ms", "value": 1327.3448944091797, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:57:15.298733+00:00", "name": "agent_call.tool_calls", "value": 1.0, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:58:01.938184+00:00", "name": "guardrail.safety.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:58:01.939080+00:00", "name": "guardrail.relevance.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:58:03.185522+00:00", "name": "agent_invoke.duration_ms", "value": 1226.5150547027588, "dimensions": {"status": "success", "service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:58:03.186130+00:00", "name": "agent.answer.duration_ms", "value": 1227.4730205535889, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:58:03.186235+00:00", "name": "agent.answer.tool_calls", "value": 1.0, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:58:03.187270+00:00", "name": "agent_call.duration_ms", "value": 1247.8861808776855, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:58:03.187377+00:00", "name": "agent_call.tool_calls", "value": 1.0, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:58:45.273819+00:00", "name": "guardrail.safety.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:58:45.275367+00:00", "name": "guardrail.relevance.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:58:47.899967+00:00", "name": "agent_invoke.duration_ms", "value": 2603.840112686157, "dimensions": {"status": "success", "service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:58:47.900999+00:00", "name": "agent.answer.duration_ms", "value": 2604.936122894287, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:58:47.901108+00:00", "name": "agent.answer.tool_calls", "value": 3.0, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:58:47.902102+00:00", "name": "agent_call.duration_ms", "value": 2626.333236694336, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:58:47.902229+00:00", "name": "agent_call.tool_calls", "value": 3.0, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:59:18.573525+00:00", "name": "guardrail.safety.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:59:18.574978+00:00", "name": "guardrail.relevance.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:59:19.146613+00:00", "name": "agent_invoke.duration_ms", "value": 552.7029037475586, "dimensions": {"status": "success", "service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:59:19.147279+00:00", "name": "agent.answer.duration_ms", "value": 553.93385887146, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:59:19.147456+00:00", "name": "agent.answer.tool_calls", "value": 0.0, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:59:19.149097+00:00", "name": "agent_call.duration_ms", "value": 573.6751556396484, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:59:19.149684+00:00", "name": "agent_call.tool_calls", "value": 0.0, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:59:38.024333+00:00", "name": "guardrail.safety.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:59:38.025151+00:00", "name": "guardrail.relevance.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:59:39.506737+00:00", "name": "agent_invoke.duration_ms", "value": 1463.277816772461, "dimensions": {"status": "success", "service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:59:39.507385+00:00", "name": "agent.answer.duration_ms", "value": 1464.3430709838867, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:59:39.507564+00:00", "name": "agent.answer.tool_calls", "value": 1.0, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T01:59:39.508530+00:00", "name": "agent_call.duration_ms", "value": 1482.9556941986084, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T01:59:39.508705+00:00", "name": "agent_call.tool_calls", "value": 1.0, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T02:01:29.821285+00:00", "name": "guardrail.safety.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T02:01:29.823286+00:00", "name": "guardrail.relevance.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T02:01:31.217294+00:00", "name": "agent_invoke.duration_ms", "value": 1375.3600120544434, "dimensions": {"status": "success", "service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T02:01:31.218278+00:00", "name": "agent.answer.duration_ms", "value": 1376.6868114471436, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T02:01:31.218415+00:00", "name": "agent.answer.tool_calls", "value": 1.0, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T02:01:31.219607+00:00", "name": "agent_call.duration_ms", "value": 1395.9059715270996, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T02:01:31.219755+00:00", "name": "agent_call.tool_calls", "value": 1.0, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T02:02:04.244099+00:00", "name": "guardrail.safety.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T02:02:04.245745+00:00", "name": "guardrail.relevance.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T02:02:05.705053+00:00", "name": "agent_invoke.duration_ms", "value": 1441.601037979126, "dimensions": {"status": "success", "service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T02:02:05.705760+00:00", "name": "agent.answer.duration_ms", "value": 1442.9309368133545, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T02:02:05.705887+00:00", "name": "agent.answer.tool_calls", "value": 1.0, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T02:02:05.706874+00:00", "name": "agent_call.duration_ms", "value": 1460.7627391815186, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T02:02:05.706991+00:00", "name": "agent_call.tool_calls", "value": 1.0, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T02:02:43.700227+00:00", "name": "guardrail.safety.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T02:02:43.702336+00:00", "name": "guardrail.relevance.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T02:02:45.190810+00:00", "name": "agent_invoke.duration_ms", "value": 1467.1907424926758, "dimensions": {"status": "success", "service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T02:02:45.191686+00:00", "name": "agent.answer.duration_ms", "value": 1468.7249660491943, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T02:02:45.191804+00:00", "name": "agent.answer.tool_calls", "value": 1.0, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T02:02:45.193257+00:00", "name": "agent_call.duration_ms", "value": 1490.4601573944092, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T02:02:45.193398+00:00", "name": "agent_call.tool_calls", "value": 1.0, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T02:03:13.437068+00:00", "name": "guardrail.safety.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T02:03:13.437877+00:00", "name": "guardrail.relevance.decision", "value": 1.0, "dimensions": {"decision": "pass", "service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T02:03:15.536486+00:00", "name": "agent_invoke.duration_ms", "value": 2080.3098678588867, "dimensions": {"status": "success", "service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T02:03:15.537726+00:00", "name": "agent.answer.duration_ms", "value": 2081.4011096954346, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T02:03:15.537831+00:00", "name": "agent.answer.tool_calls", "value": 2.0, "dimensions": {"service": "agent"}}
+{"type": "metric", "timestamp": "2026-01-13T02:03:15.538757+00:00", "name": "agent_call.duration_ms", "value": 2100.2721786499023, "dimensions": {"service": "orchestrator"}}
+{"type": "metric", "timestamp": "2026-01-13T02:03:15.538863+00:00", "name": "agent_call.tool_calls", "value": 2.0, "dimensions": {"service": "orchestrator"}}

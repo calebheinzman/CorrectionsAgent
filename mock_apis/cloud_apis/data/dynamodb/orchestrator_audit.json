@@ -7447,5 +7447,485 @@
     },
     "final_status": "success",
     "error": null
+  },
+  {
+    "pk": "request#req_8affe4e724dd4746",
+    "request_id": "req_8affe4e724dd4746",
+    "timestamp": "2026-01-13T01:50:04.916050+00:00",
+    "question": "Hi",
+    "question_length": 2,
+    "safety": {
+      "allowed": true,
+      "reason": "Safety check disabled (ORCHESTRATOR_SAFETY_ENABLED=false)",
+      "policy": null,
+      "model_id": null
+    },
+    "relevance": {
+      "relevant": true,
+      "reason": "Relevance check disabled (ORCHESTRATOR_RELEVANCE_ENABLED=false)",
+      "model_id": null
+    },
+    "agent": {
+      "called": true,
+      "tool_calls_count": 0,
+      "latency_ms": 517.2927379608154,
+      "citations_count": 0,
+      "model_info": {
+        "model_name": "gemini-2.0-flash-lite",
+        "provider": "google"
+      }
+    },
+    "final_status": "success",
+    "error": null
+  },
+  {
+    "pk": "request#req_38a0b62053ba4323",
+    "request_id": "req_38a0b62053ba4323",
+    "timestamp": "2026-01-13T01:54:33.062805+00:00",
+    "question": "Show me prisoners",
+    "question_length": 17,
+    "safety": {
+      "allowed": true,
+      "reason": "Safety check disabled (ORCHESTRATOR_SAFETY_ENABLED=false)",
+      "policy": null,
+      "model_id": null
+    },
+    "relevance": {
+      "relevant": true,
+      "reason": "Relevance check disabled (ORCHESTRATOR_RELEVANCE_ENABLED=false)",
+      "model_id": null
+    },
+    "agent": {
+      "called": true,
+      "tool_calls_count": 1,
+      "latency_ms": 1385.3650093078613,
+      "citations_count": 10,
+      "model_info": {
+        "model_name": "gemini-2.0-flash-lite",
+        "provider": "google"
+      }
+    },
+    "final_status": "success",
+    "error": null
+  },
+  {
+    "pk": "request#req_8611ab10ba2f449f",
+    "request_id": "req_8611ab10ba2f449f",
+    "timestamp": "2026-01-13T01:55:08.158800+00:00",
+    "question": "Have there been any reference to drug use this week in conversations",
+    "question_length": 68,
+    "safety": {
+      "allowed": true,
+      "reason": "Safety check disabled (ORCHESTRATOR_SAFETY_ENABLED=false)",
+      "policy": null,
+      "model_id": null
+    },
+    "relevance": {
+      "relevant": true,
+      "reason": "Relevance check disabled (ORCHESTRATOR_RELEVANCE_ENABLED=false)",
+      "model_id": null
+    },
+    "agent": {
+      "called": true,
+      "tool_calls_count": 0,
+      "latency_ms": 835.4806900024414,
+      "citations_count": 0,
+      "model_info": {
+        "model_name": "gemini-2.0-flash-lite",
+        "provider": "google"
+      }
+    },
+    "final_status": "success",
+    "error": null
+  },
+  {
+    "pk": "request#req_9bf67c1f90354440",
+    "request_id": "req_9bf67c1f90354440",
+    "timestamp": "2026-01-13T01:55:23.654826+00:00",
+    "question": "Have there been any reference to drug use this week in conversations?",
+    "question_length": 69,
+    "safety": {
+      "allowed": true,
+      "reason": "Safety check disabled (ORCHESTRATOR_SAFETY_ENABLED=false)",
+      "policy": null,
+      "model_id": null
+    },
+    "relevance": {
+      "relevant": true,
+      "reason": "Relevance check disabled (ORCHESTRATOR_RELEVANCE_ENABLED=false)",
+      "model_id": null
+    },
+    "agent": {
+      "called": true,
+      "tool_calls_count": 1,
+      "latency_ms": 1189.7940635681152,
+      "citations_count": 5,
+      "model_info": {
+        "model_name": "gemini-2.0-flash-lite",
+        "provider": "google"
+      }
+    },
+    "final_status": "success",
+    "error": null
+  },
+  {
+    "pk": "request#req_39bf0029c57d4ce3",
+    "request_id": "req_39bf0029c57d4ce3",
+    "timestamp": "2026-01-13T01:55:28.379192+00:00",
+    "question": "Have there been any reference to drug use this week in conversations?",
+    "question_length": 69,
+    "safety": {
+      "allowed": true,
+      "reason": "Safety check disabled (ORCHESTRATOR_SAFETY_ENABLED=false)",
+      "policy": null,
+      "model_id": null
+    },
+    "relevance": {
+      "relevant": true,
+      "reason": "Relevance check disabled (ORCHESTRATOR_RELEVANCE_ENABLED=false)",
+      "model_id": null
+    },
+    "agent": {
+      "called": true,
+      "tool_calls_count": 1,
+      "latency_ms": 1075.1430988311768,
+      "citations_count": 5,
+      "model_info": {
+        "model_name": "gemini-2.0-flash-lite",
+        "provider": "google"
+      }
+    },
+    "final_status": "success",
+    "error": null
+  },
+  {
+    "pk": "request#req_c2d4d634bf974e3f",
+    "request_id": "req_c2d4d634bf974e3f",
+    "timestamp": "2026-01-13T01:55:36.870134+00:00",
+    "question": "Have there been any reference to drug use this week in conversations?",
+    "question_length": 69,
+    "safety": {
+      "allowed": true,
+      "reason": "Safety check disabled (ORCHESTRATOR_SAFETY_ENABLED=false)",
+      "policy": null,
+      "model_id": null
+    },
+    "relevance": {
+      "relevant": true,
+      "reason": "Relevance check disabled (ORCHESTRATOR_RELEVANCE_ENABLED=false)",
+      "model_id": null
+    },
+    "agent": {
+      "called": true,
+      "tool_calls_count": 1,
+      "latency_ms": 1334.5341682434082,
+      "citations_count": 5,
+      "model_info": {
+        "model_name": "gemini-2.0-flash-lite",
+        "provider": "google"
+      }
+    },
+    "final_status": "success",
+    "error": null
+  },
+  {
+    "pk": "request#req_5d3ec2f79c2e47b0",
+    "request_id": "req_5d3ec2f79c2e47b0",
+    "timestamp": "2026-01-13T01:55:40.006619+00:00",
+    "question": "Have there been any reference to drug use this week in conversations",
+    "question_length": 68,
+    "safety": {
+      "allowed": true,
+      "reason": "Safety check disabled (ORCHESTRATOR_SAFETY_ENABLED=false)",
+      "policy": null,
+      "model_id": null
+    },
+    "relevance": {
+      "relevant": true,
+      "reason": "Relevance check disabled (ORCHESTRATOR_RELEVANCE_ENABLED=false)",
+      "model_id": null
+    },
+    "agent": {
+      "called": true,
+      "tool_calls_count": 0,
+      "latency_ms": 792.644739151001,
+      "citations_count": 0,
+      "model_info": {
+        "model_name": "gemini-2.0-flash-lite",
+        "provider": "google"
+      }
+    },
+    "final_status": "success",
+    "error": null
+  },
+  {
+    "pk": "request#req_41bc3a54679d41c0",
+    "request_id": "req_41bc3a54679d41c0",
+    "timestamp": "2026-01-13T01:57:13.970169+00:00",
+    "question": "Show me prisoners",
+    "question_length": 17,
+    "safety": {
+      "allowed": true,
+      "reason": "Safety check disabled (ORCHESTRATOR_SAFETY_ENABLED=false)",
+      "policy": null,
+      "model_id": null
+    },
+    "relevance": {
+      "relevant": true,
+      "reason": "Relevance check disabled (ORCHESTRATOR_RELEVANCE_ENABLED=false)",
+      "model_id": null
+    },
+    "agent": {
+      "called": true,
+      "tool_calls_count": 1,
+      "latency_ms": 1327.3448944091797,
+      "citations_count": 10,
+      "model_info": {
+        "model_name": "gemini-2.0-flash-lite",
+        "provider": "google"
+      }
+    },
+    "final_status": "success",
+    "error": null
+  },
+  {
+    "pk": "request#req_224cf17e1bd043ae",
+    "request_id": "req_224cf17e1bd043ae",
+    "timestamp": "2026-01-13T01:58:01.937902+00:00",
+    "question": "Have there been any references to drug use this week in conversations?",
+    "question_length": 70,
+    "safety": {
+      "allowed": true,
+      "reason": "Safety check disabled (ORCHESTRATOR_SAFETY_ENABLED=false)",
+      "policy": null,
+      "model_id": null
+    },
+    "relevance": {
+      "relevant": true,
+      "reason": "Relevance check disabled (ORCHESTRATOR_RELEVANCE_ENABLED=false)",
+      "model_id": null
+    },
+    "agent": {
+      "called": true,
+      "tool_calls_count": 1,
+      "latency_ms": 1247.8861808776855,
+      "citations_count": 5,
+      "model_info": {
+        "model_name": "gemini-2.0-flash-lite",
+        "provider": "google"
+      }
+    },
+    "final_status": "success",
+    "error": null
+  },
+  {
+    "pk": "request#req_0ed95556d64c4539",
+    "request_id": "req_0ed95556d64c4539",
+    "timestamp": "2026-01-13T01:58:45.273128+00:00",
+    "question": "Tell me about any issues with Casey Garcia?",
+    "question_length": 43,
+    "safety": {
+      "allowed": true,
+      "reason": "Safety check disabled (ORCHESTRATOR_SAFETY_ENABLED=false)",
+      "policy": null,
+      "model_id": null
+    },
+    "relevance": {
+      "relevant": true,
+      "reason": "Relevance check disabled (ORCHESTRATOR_RELEVANCE_ENABLED=false)",
+      "model_id": null
+    },
+    "agent": {
+      "called": true,
+      "tool_calls_count": 3,
+      "latency_ms": 2626.333236694336,
+      "citations_count": 7,
+      "model_info": {
+        "model_name": "gemini-2.0-flash-lite",
+        "provider": "google"
+      }
+    },
+    "final_status": "success",
+    "error": null
+  },
+  {
+    "pk": "request#req_2d218caf83b74565",
+    "request_id": "req_2d218caf83b74565",
+    "timestamp": "2026-01-13T01:59:18.573174+00:00",
+    "question": "Tell me about any mental health issues found in conversations this week?",
+    "question_length": 72,
+    "safety": {
+      "allowed": true,
+      "reason": "Safety check disabled (ORCHESTRATOR_SAFETY_ENABLED=false)",
+      "policy": null,
+      "model_id": null
+    },
+    "relevance": {
+      "relevant": true,
+      "reason": "Relevance check disabled (ORCHESTRATOR_RELEVANCE_ENABLED=false)",
+      "model_id": null
+    },
+    "agent": {
+      "called": true,
+      "tool_calls_count": 0,
+      "latency_ms": 573.6751556396484,
+      "citations_count": 0,
+      "model_info": {
+        "model_name": "gemini-2.0-flash-lite",
+        "provider": "google"
+      }
+    },
+    "final_status": "success",
+    "error": null
+  },
+  {
+    "pk": "request#req_2f3d64554c544974",
+    "request_id": "req_2f3d64554c544974",
+    "timestamp": "2026-01-13T01:59:38.024167+00:00",
+    "question": "Search for mental health issues",
+    "question_length": 31,
+    "safety": {
+      "allowed": true,
+      "reason": "Safety check disabled (ORCHESTRATOR_SAFETY_ENABLED=false)",
+      "policy": null,
+      "model_id": null
+    },
+    "relevance": {
+      "relevant": true,
+      "reason": "Relevance check disabled (ORCHESTRATOR_RELEVANCE_ENABLED=false)",
+      "model_id": null
+    },
+    "agent": {
+      "called": true,
+      "tool_calls_count": 1,
+      "latency_ms": 1482.9556941986084,
+      "citations_count": 2,
+      "model_info": {
+        "model_name": "gemini-2.0-flash-lite",
+        "provider": "google"
+      }
+    },
+    "final_status": "success",
+    "error": null
+  },
+  {
+    "pk": "request#req_5667c55954be4812",
+    "request_id": "req_5667c55954be4812",
+    "timestamp": "2026-01-13T02:01:29.821108+00:00",
+    "question": "Show me the prisoners",
+    "question_length": 21,
+    "safety": {
+      "allowed": true,
+      "reason": "Safety check disabled (ORCHESTRATOR_SAFETY_ENABLED=false)",
+      "policy": null,
+      "model_id": null
+    },
+    "relevance": {
+      "relevant": true,
+      "reason": "Relevance check disabled (ORCHESTRATOR_RELEVANCE_ENABLED=false)",
+      "model_id": null
+    },
+    "agent": {
+      "called": true,
+      "tool_calls_count": 1,
+      "latency_ms": 1395.9059715270996,
+      "citations_count": 10,
+      "model_info": {
+        "model_name": "gemini-2.0-flash-lite",
+        "provider": "google"
+      }
+    },
+    "final_status": "success",
+    "error": null
+  },
+  {
+    "pk": "request#req_f201a79512c04d33",
+    "request_id": "req_f201a79512c04d33",
+    "timestamp": "2026-01-13T02:02:04.243854+00:00",
+    "question": "Have there been any references to drug use this week?",
+    "question_length": 53,
+    "safety": {
+      "allowed": true,
+      "reason": "Safety check disabled (ORCHESTRATOR_SAFETY_ENABLED=false)",
+      "policy": null,
+      "model_id": null
+    },
+    "relevance": {
+      "relevant": true,
+      "reason": "Relevance check disabled (ORCHESTRATOR_RELEVANCE_ENABLED=false)",
+      "model_id": null
+    },
+    "agent": {
+      "called": true,
+      "tool_calls_count": 1,
+      "latency_ms": 1460.7627391815186,
+      "citations_count": 5,
+      "model_info": {
+        "model_name": "gemini-2.0-flash-lite",
+        "provider": "google"
+      }
+    },
+    "final_status": "success",
+    "error": null
+  },
+  {
+    "pk": "request#req_630955755aea40d6",
+    "request_id": "req_630955755aea40d6",
+    "timestamp": "2026-01-13T02:02:43.699047+00:00",
+    "question": "Search for mental health issues",
+    "question_length": 31,
+    "safety": {
+      "allowed": true,
+      "reason": "Safety check disabled (ORCHESTRATOR_SAFETY_ENABLED=false)",
+      "policy": null,
+      "model_id": null
+    },
+    "relevance": {
+      "relevant": true,
+      "reason": "Relevance check disabled (ORCHESTRATOR_RELEVANCE_ENABLED=false)",
+      "model_id": null
+    },
+    "agent": {
+      "called": true,
+      "tool_calls_count": 1,
+      "latency_ms": 1490.4601573944092,
+      "citations_count": 2,
+      "model_info": {
+        "model_name": "gemini-2.0-flash-lite",
+        "provider": "google"
+      }
+    },
+    "final_status": "success",
+    "error": null
+  },
+  {
+    "pk": "request#req_4a235d0e93d5445f",
+    "request_id": "req_4a235d0e93d5445f",
+    "timestamp": "2026-01-13T02:03:13.436889+00:00",
+    "question": "Tell me more about Riley miller. Whats on his mind?",
+    "question_length": 51,
+    "safety": {
+      "allowed": true,
+      "reason": "Safety check disabled (ORCHESTRATOR_SAFETY_ENABLED=false)",
+      "policy": null,
+      "model_id": null
+    },
+    "relevance": {
+      "relevant": true,
+      "reason": "Relevance check disabled (ORCHESTRATOR_RELEVANCE_ENABLED=false)",
+      "model_id": null
+    },
+    "agent": {
+      "called": true,
+      "tool_calls_count": 2,
+      "latency_ms": 2100.2721786499023,
+      "citations_count": 2,
+      "model_info": {
+        "model_name": "gemini-2.0-flash-lite",
+        "provider": "google"
+      }
+    },
+    "final_status": "success",
+    "error": null
   }
 ]

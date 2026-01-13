@@ -5,7 +5,7 @@
 ## Overview
 
 - **Datasets:** relevance, safety, tool_pairs, datapoint_pairs, question_list
-- **Models:** gemini-2.0-flash-lite, gemini-2.0-flash, gemini-1.5-flash
+- **Models:** gemini-2.0-flash-lite, gemini-2.0-flash
 - **Prompt Versions:** v1.0.0, v1.1.0, v1.2.0
 - **Total Samples:** 8100
 - **Total Configurations:** 45
@@ -22,9 +22,6 @@
 | gemini-2.0-flash | v1.0.0 | 0.945 | 0.000 | 0.000 | 0.500 | 1.000 |
 | gemini-2.0-flash | v1.1.0 | 0.945 | 0.000 | 0.000 | 0.500 | 1.000 |
 | gemini-2.0-flash | v1.2.0 | 0.945 | 0.000 | 0.000 | 0.500 | 1.000 |
-| gemini-1.5-flash | v1.0.0 | 0.945 | 0.000 | 0.000 | 0.500 | 1.000 |
-| gemini-1.5-flash | v1.1.0 | 0.945 | 0.000 | 0.000 | 0.500 | 1.000 |
-| gemini-1.5-flash | v1.2.0 | 0.945 | 0.000 | 0.000 | 0.500 | 1.000 |
 
 ## Dataset: safety
 
@@ -38,9 +35,7 @@
 | gemini-2.0-flash | v1.0.0 | 0.880 | 0.000 | 0.000 | 0.500 | 1.000 |
 | gemini-2.0-flash | v1.1.0 | 0.880 | 0.000 | 0.000 | 0.500 | 1.000 |
 | gemini-2.0-flash | v1.2.0 | 0.880 | 0.000 | 0.000 | 0.500 | 1.000 |
-| gemini-1.5-flash | v1.0.0 | 0.880 | 0.000 | 0.000 | 0.500 | 1.000 |
-| gemini-1.5-flash | v1.1.0 | 0.880 | 0.000 | 0.000 | 0.500 | 1.000 |
-| gemini-1.5-flash | v1.2.0 | 0.880 | 0.000 | 0.000 | 0.500 | 1.000 |
+
 
 ## Dataset: tool_pairs
 
@@ -54,9 +49,6 @@
 | gemini-2.0-flash | v1.0.0 | 0.325 | 0.944 | 0.406 | 0.531 | 0.568 |
 | gemini-2.0-flash | v1.1.0 | 0.295 | 0.845 | 0.410 | 0.527 | 0.552 |
 | gemini-2.0-flash | v1.2.0 | 0.370 | 0.890 | 0.522 | 0.639 | 0.658 |
-| gemini-1.5-flash | v1.0.0 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
-| gemini-1.5-flash | v1.1.0 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
-| gemini-1.5-flash | v1.2.0 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 |
 
 ## Dataset: datapoint_pairs
 
@@ -70,9 +62,6 @@
 | gemini-2.0-flash | v1.0.0 | 0.525 | 1.000 |
 | gemini-2.0-flash | v1.1.0 | 0.665 | 1.000 |
 | gemini-2.0-flash | v1.2.0 | 0.530 | 1.000 |
-| gemini-1.5-flash | v1.0.0 | 0.000 | 1.000 |
-| gemini-1.5-flash | v1.1.0 | 0.000 | 1.000 |
-| gemini-1.5-flash | v1.2.0 | 0.000 | 1.000 |
 
 ## Dataset: question_list
 
@@ -86,23 +75,8 @@
 | gemini-2.0-flash | v1.0.0 | 100 | 1.000 | 589.9 | 716.5 | 1645.7 |
 | gemini-2.0-flash | v1.1.0 | 100 | 1.000 | 767.4 | 718.5 | 2215.3 |
 | gemini-2.0-flash | v1.2.0 | 100 | 1.000 | 871.7 | 813.8 | 2914.9 |
-| gemini-1.5-flash | v1.0.0 | 100 | 1.000 | 36.5 | 53.5 | 73.8 |
-| gemini-1.5-flash | v1.1.0 | 100 | 1.000 | 37.3 | 56.6 | 71.0 |
-| gemini-1.5-flash | v1.2.0 | 100 | 1.000 | 37.5 | 54.8 | 74.4 |
 
-### Token Usage & Cost
 
-| Model | Prompt | Avg Input Tokens | Avg Output Tokens | Total Cost (USD) |
-|-------|--------|------------------|-------------------|------------------|
-| gemini-2.0-flash-lite | v1.0.0 | 0.0 | 0.0 | $0.0000 |
-| gemini-2.0-flash-lite | v1.1.0 | 0.0 | 0.0 | $0.0000 |
-| gemini-2.0-flash-lite | v1.2.0 | 0.0 | 0.0 | $0.0000 |
-| gemini-2.0-flash | v1.0.0 | 0.0 | 0.0 | $0.0000 |
-| gemini-2.0-flash | v1.1.0 | 0.0 | 0.0 | $0.0000 |
-| gemini-2.0-flash | v1.2.0 | 0.0 | 0.0 | $0.0000 |
-| gemini-1.5-flash | v1.0.0 | 0.0 | 0.0 | $0.0000 |
-| gemini-1.5-flash | v1.1.0 | 0.0 | 0.0 | $0.0000 |
-| gemini-1.5-flash | v1.2.0 | 0.0 | 0.0 | $0.0000 |
 
 ## LLM-as-Judge & RAGAS Metrics
 
@@ -127,9 +101,6 @@ These metrics are **scored** (not accuracy-based). Each metric is a 0-1 score re
 | gemini-2.0-flash | v1.0.0 | 100 | 0.292 | 0.086 |
 | gemini-2.0-flash | v1.1.0 | 100 | 0.299 | 0.080 |
 | gemini-2.0-flash | v1.2.0 | 100 | 0.351 | 0.099 |
-| gemini-1.5-flash | v1.0.0 | 100 | 0.142 | 0.000 |
-| gemini-1.5-flash | v1.1.0 | 100 | 0.148 | 0.000 |
-| gemini-1.5-flash | v1.2.0 | 100 | 0.150 | 0.000 |
 
 ### Answer Quality Metrics (LLM-as-Judge)
 
@@ -141,9 +112,7 @@ These metrics are **scored** (not accuracy-based). Each metric is a 0-1 score re
 | gemini-2.0-flash | v1.0.0 | 100 | 0.286 | 0.749 | 0.363 |
 | gemini-2.0-flash | v1.1.0 | 100 | 0.305 | 0.761 | 0.400 |
 | gemini-2.0-flash | v1.2.0 | 100 | 0.297 | 0.771 | 0.401 |
-| gemini-1.5-flash | v1.0.0 | 100 | 0.005 | 0.463 | 0.018 |
-| gemini-1.5-flash | v1.1.0 | 100 | 0.005 | 0.463 | 0.018 |
-| gemini-1.5-flash | v1.2.0 | 100 | 0.005 | 0.463 | 0.018 |
+
 
 ### Reference-Free Metrics (Non-Judge)
 
@@ -155,9 +124,6 @@ These metrics are **scored** (not accuracy-based). Each metric is a 0-1 score re
 | gemini-2.0-flash | v1.0.0 | 100 | 0.711 | 0.110 | 0.965 |
 | gemini-2.0-flash | v1.1.0 | 100 | 0.726 | 0.110 | 0.970 |
 | gemini-2.0-flash | v1.2.0 | 100 | 0.735 | 0.156 | 0.955 |
-| gemini-1.5-flash | v1.0.0 | 100 | 0.532 | 0.000 | 1.000 |
-| gemini-1.5-flash | v1.1.0 | 100 | 0.533 | 0.000 | 1.000 |
-| gemini-1.5-flash | v1.2.0 | 100 | 0.532 | 0.000 | 1.000 |
 
 ---
 

@@ -28,6 +28,9 @@ This project has only been tested on my local environment:
 - Node v24.3.0
 - npm 11.4.2
 
+This project works with simulated APIs, and cloud services to keep everything local for demo purposes. It also pretending that each API service (orchestrator, guardrails, agent) is running on an auto-scaled ec2 instance. But again - we wanted everything local for the demo so we just run them locally. 
+
+We did not containerize anything for sake of simplicity and ease of development during the demo. Ideally each service would be containerized and deployed to a cloud environment.
 
 ## Project structure
 
