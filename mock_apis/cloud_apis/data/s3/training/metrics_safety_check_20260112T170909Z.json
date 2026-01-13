@@ -1,0 +1,19 @@
+{
+  "task": "safety_check",
+  "run_id": "safety_check_20260112T170909Z",
+  "data_path": "/Users/caleb/Documents/workspace/PycharmProjects/Jobs/Corrections Agent/train/data/safety_check_20260112T170236Z.jsonl",
+  "n_total": 201,
+  "n_train": 161,
+  "n_test": 40,
+  "accuracy": 0.975,
+  "confusion": {
+    "dangerous": {
+      "dangerous": 22,
+      "safe": 0
+    },
+    "safe": {
+      "dangerous": 1,
+      "safe": 17
+    }
+  }
+}

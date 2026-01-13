@@ -1,0 +1,19 @@
+{
+  "task": "relevance_check",
+  "run_id": "relevance_check_20260112T174843Z",
+  "data_path": "/Users/caleb/Documents/workspace/PycharmProjects/Jobs/CorrectionsAgent/train/data/relevance_check_20260112T170236Z.jsonl",
+  "n_total": 220,
+  "n_train": 176,
+  "n_test": 44,
+  "accuracy": 0.9090909090909091,
+  "confusion": {
+    "relevant": {
+      "relevant": 17,
+      "irrelevant": 0
+    },
+    "irrelevant": {
+      "relevant": 4,
+      "irrelevant": 23
+    }
+  }
+}

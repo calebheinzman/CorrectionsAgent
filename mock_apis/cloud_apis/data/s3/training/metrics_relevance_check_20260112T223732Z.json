@@ -1,0 +1,19 @@
+{
+  "task": "relevance_check",
+  "run_id": "relevance_check_20260112T223732Z",
+  "data_path": "/Users/caleb/Documents/workspace/PycharmProjects/Jobs/LeoTech/train/data/relevance_check_20260112T170236Z.jsonl",
+  "n_total": 229,
+  "n_train": 184,
+  "n_test": 45,
+  "accuracy": 0.9555555555555556,
+  "confusion": {
+    "relevant": {
+      "relevant": 19,
+      "irrelevant": 1
+    },
+    "irrelevant": {
+      "relevant": 1,
+      "irrelevant": 24
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "task": "safety_check",
+  "run_id": "safety_check_20260112T225827Z",
+  "data_path": "/Users/caleb/Documents/workspace/PycharmProjects/Jobs/LeoTech/train/data/safety_check_20260112T170236Z.jsonl",
+  "n_total": 213,
+  "n_train": 171,
+  "n_test": 42,
+  "accuracy": 0.5238095238095238,
+  "confusion": {
+    "dangerous": {
+      "dangerous": 0,
+      "safe": 20
+    },
+    "safe": {
+      "dangerous": 0,
+      "safe": 22
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "tasks": {
+    "relevance_check": {
+      "provider": "local_embedding_lr",
+      "model_id": "relevance_check_20260112T225942Z",
+      "version": "1"
+    },
+    "safety_check": {
+      "provider": "local_embedding_lr",
+      "model_id": "safety_check_20260112T225827Z",
+      "version": "1"
+    },
+    "agent": {
+      "provider": "google",
+      "model_id": "gemini-2.0-flash-lite",
+      "version": "latest"
+    },
+    "eval_model_1": {
+      "provider": "google",
+      "model_id": "gemini-2.0-flash-lite",
+      "version": "latest"
+    },
+    "eval_model_2": {
+      "provider": "google",
+      "model_id": "gemini-2.0-flash",
+      "version": "latest"
+    },
+    "eval_model_3": {
+      "provider": "google",
+      "model_id": "gemini-1.5-flash",
+      "version": "latest"
+    }
+  }
+}

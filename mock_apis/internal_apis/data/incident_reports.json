@@ -1,0 +1,47 @@
+[
+  {
+    "incident_id": "INC-017",
+    "date": "2026-01-09",
+    "type": "Contraband Concern",
+    "severity": "high",
+    "description": "Staff documented a contraband-related concern following increased tension in Housing Unit B.",
+    "involved_prisoner_ids": [
+      "P004"
+    ],
+    "involved_prisoner_names": [
+      "Casey Garcia"
+    ],
+    "facility_id": "FAC-001",
+    "facility_name": "North River Correctional Center",
+    "location": "Housing Unit B",
+    "shift": "evening",
+    "outcome": "Resolved; referred for follow-up review",
+    "linked_conversation_ids": [
+      "conv_001",
+      "conv_002"
+    ],
+    "linked_report_ids": [
+      "rpt_003"
+    ]
+  },
+  {
+    "incident_id": "inc_006",
+    "date": "2025-09-18",
+    "type": "Altercation",
+    "severity": "medium",
+    "description": "A brief altercation was reported and resolved without further escalation.",
+    "involved_prisoner_ids": [
+      "P005"
+    ],
+    "involved_prisoner_names": [
+      "Riley Miller"
+    ],
+    "facility_id": "FAC-001",
+    "facility_name": "North River Correctional Center",
+    "location": "Yard",
+    "shift": "day",
+    "outcome": "Resolved",
+    "linked_conversation_ids": [],
+    "linked_report_ids": []
+  }
+]

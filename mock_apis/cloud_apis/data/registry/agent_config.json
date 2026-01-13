@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "agent": {
+      "prompt_bundle_id": "investigative-assistant",
+      "prompt_version": "v1.0.0",
+      "tools_bundle_id": "investigative-tools",
+      "tools_version": "v1.0.0"
+    }
+  }
+}

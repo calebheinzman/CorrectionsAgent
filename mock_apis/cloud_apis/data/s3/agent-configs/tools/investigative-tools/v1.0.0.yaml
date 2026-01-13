@@ -1,0 +1,142 @@
+tools:
+  - name: search_conversations_tool
+    description: |
+      Search prisoner conversations with various filters.
+      
+      Parameters:
+      - query (optional): Free-text semantic search query (e.g., "drug use", "escape plan")
+      - prisoner_id (optional): Filter by specific prisoner ID
+      - prisoner_name (optional): Filter by prisoner name (case-insensitive)
+      - alert_category (optional): Filter by alert category
+      - keyword (optional): Filter by keyword hit
+      - limit (optional): Maximum results (default 10)
+      
+      Returns: List of matching conversations with transcripts and metadata.
+    module: services.agent.tools.conversations
+    function: search_conversations
+    parameters:
+      - name: query
+        type: string
+        required: false
+      - name: prisoner_id
+        type: string
+        required: false
+      - name: prisoner_name
+        type: string
+        required: false
+      - name: alert_category
+        type: string
+        required: false
+      - name: keyword
+        type: string
+        required: false
+      - name: limit
+        type: integer
+        required: false
+        default: 10
+
+  - name: search_prisoners_tool
+    description: |
+      Search prisoner information.
+      
+      Parameters:
+      - prisoner_id (optional): Exact prisoner ID match
+      - name (optional): Case-insensitive name search
+      - limit (optional): Maximum results (default 10)
+      
+      Returns: List of matching prisoners with their information.
+    module: services.agent.tools.prisoner_info
+    function: search_prisoners
+    parameters:
+      - name: prisoner_id
+        type: string
+        required: false
+      - name: name
+        type: string
+        required: false
+      - name: limit
+        type: integer
+        required: false
+        default: 10
+
+  - name: search_incidents_tool
+    description: |
+      Search incident reports.
+      
+      Parameters:
+      - query (optional): Free-text semantic search over descriptions
+      - prisoner_id (optional): Filter by involved prisoner ID
+      - prisoner_name (optional): Filter by involved prisoner name
+      - incident_type (optional): Filter by incident type
+      - severity (optional): Filter by severity (low, medium, high)
+      - limit (optional): Maximum results (default 10)
+      
+      Returns: List of matching incident reports with details.
+    module: services.agent.tools.incident_reports
+    function: search_incidents
+    parameters:
+      - name: query
+        type: string
+        required: false
+      - name: prisoner_id
+        type: string
+        required: false
+      - name: prisoner_name
+        type: string
+        required: false
+      - name: incident_type
+        type: string
+        required: false
+      - name: severity
+        type: string
+        required: false
+      - name: limit
+        type: integer
+        required: false
+        default: 10
+
+  - name: search_user_reports_tool
+    description: |
+      Search analyst reports.
+      
+      Parameters:
+      - query (optional): Free-text semantic search over summaries
+      - prisoner_id (optional): Filter by linked prisoner ID
+      - prisoner_name (optional): Filter by linked prisoner name
+      - risk_level (optional): Filter by risk level (low, medium, high)
+      - alert_category (optional): Filter by alert category
+      - tag (optional): Filter by tag
+      - limit (optional): Maximum results (default 10)
+      
+      Returns: List of matching reports with summaries and metadata.
+    module: services.agent.tools.user_reports
+    function: search_user_reports
+    parameters:
+      - name: query
+        type: string
+        required: false
+      - name: prisoner_id
+        type: string
+        required: false
+      - name: prisoner_name
+        type: string
+        required: false
+      - name: risk_level
+        type: string
+        required: false
+      - name: alert_category
+        type: string
+        required: false
+      - name: tag
+        type: string
+        required: false
+      - name: limit
+        type: integer
+        required: false
+        default: 10
+
+metadata:
+  bundle_id: investigative-tools
+  version: v1.0.0
+  created_at: "2026-01-11T00:00:00Z"
+  description: "Tool definitions for investigative assistant agent"

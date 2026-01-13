@@ -1,0 +1,137 @@
+[
+  {
+    "conversation_id": "conv_001",
+    "timestamp": "2026-01-09T16:00:00Z",
+    "prisoner_ids": [
+      "P004"
+    ],
+    "prisoner_names": [
+      "Casey Garcia"
+    ],
+    "transcript": "[AUTOMATED NOTICE] This communication is recorded. Facility: North River Correctional Center.\nInmate (Casey Garcia): I heard Unit B is short staffed again. Things feel tense.\nOutside Contact: Keep your head down. Any issues with safety?\nInmate (Casey Garcia): There was talk of a fight after chow.",
+    "facility_id": "FAC-001",
+    "facility_name": "North River Correctional Center",
+    "communication_type": "inmate_call",
+    "call_duration_seconds": 410,
+    "outside_contact_name": "Jamie Parker",
+    "outside_contact_relation": "partner",
+    "alert_categories": [
+      "facility_security",
+      "threats_violence"
+    ],
+    "keyword_hits": [
+      "short staffed",
+      "fight",
+      "tense"
+    ],
+    "alert_confidence": 0.82,
+    "review_status": "unreviewed"
+  },
+  {
+    "conversation_id": "conv_002",
+    "timestamp": "2026-01-09T08:30:00Z",
+    "prisoner_ids": [
+      "P004"
+    ],
+    "prisoner_names": [
+      "Casey Garcia"
+    ],
+    "transcript": "[AUTOMATED NOTICE] This communication is recorded. Facility: North River Correctional Center.\nInmate (Casey Garcia): People keep saying 'paper' like it's normal. I'm not trying to get wrapped up in contraband or drug use.\nOutside Contact: Stay clear. Are they pressuring you?\nInmate (Casey Garcia): Yeah, debts. They said pills are moving around but I'm not involved.",
+    "facility_id": "FAC-001",
+    "facility_name": "North River Correctional Center",
+    "communication_type": "inmate_call",
+    "call_duration_seconds": 520,
+    "outside_contact_name": "Pat Reynolds",
+    "outside_contact_relation": "parent",
+    "alert_categories": [
+      "contraband_drugs",
+      "facility_security"
+    ],
+    "keyword_hits": [
+      "contraband",
+      "pills",
+      "debts"
+    ],
+    "alert_confidence": 0.9,
+    "review_status": "unreviewed"
+  },
+  {
+    "conversation_id": "conv_003",
+    "timestamp": "2026-01-05T13:15:00Z",
+    "prisoner_ids": [
+      "P004"
+    ],
+    "prisoner_names": [
+      "Casey Garcia"
+    ],
+    "transcript": "[AUTOMATED NOTICE] This communication is recorded. Facility: North River Correctional Center.\nInmate (Casey Garcia): I'm uncomfortable with how someone is trying to pressure people. It feels coercive.\nOutside Contact: Are you safe?\nInmate (Casey Garcia): I'm trying to avoid it.",
+    "facility_id": "FAC-001",
+    "facility_name": "North River Correctional Center",
+    "communication_type": "inmate_text",
+    "call_duration_seconds": 25,
+    "outside_contact_name": "Chris Nguyen",
+    "outside_contact_relation": "sibling",
+    "alert_categories": [
+      "prea_related"
+    ],
+    "keyword_hits": [
+      "coercive",
+      "pressure"
+    ],
+    "alert_confidence": 0.72,
+    "review_status": "unreviewed"
+  },
+  {
+    "conversation_id": "conv_004",
+    "timestamp": "2026-01-08T21:10:00Z",
+    "prisoner_ids": [
+      "P005"
+    ],
+    "prisoner_names": [
+      "Riley Miller"
+    ],
+    "transcript": "[AUTOMATED NOTICE] This communication is recorded. Facility: North River Correctional Center.\nInmate (Riley Miller): I can't sleep. My chest is tight and I keep panicking.\nOutside Contact: Tell medical. You don't have to handle that alone.\nInmate (Riley Miller): I'll try. I just feel hopeless lately.",
+    "facility_id": "FAC-001",
+    "facility_name": "North River Correctional Center",
+    "communication_type": "inmate_call",
+    "call_duration_seconds": 380,
+    "outside_contact_name": "Sam Patel",
+    "outside_contact_relation": "friend",
+    "alert_categories": [
+      "wellness_mental_health"
+    ],
+    "keyword_hits": [
+      "panic",
+      "hopeless"
+    ],
+    "alert_confidence": 0.84,
+    "review_status": "unreviewed"
+  },
+  {
+    "conversation_id": "conv_005",
+    "timestamp": "2025-12-15T11:00:00Z",
+    "prisoner_ids": [
+      "P006"
+    ],
+    "prisoner_names": [
+      "Morgan Davis"
+    ],
+    "transcript": "[AUTOMATED NOTICE] This communication is recorded. Facility: North River Correctional Center.\nInmate (Morgan Davis): Don't use real names. I keep hearing about 'accounts' and 'drops'.\nOutside Contact: That sounds risky. Don't say more on the phone.\nInmate (Morgan Davis): I'm not doing it, just hearing chatter.",
+    "facility_id": "FAC-001",
+    "facility_name": "North River Correctional Center",
+    "communication_type": "inmate_call",
+    "call_duration_seconds": 450,
+    "outside_contact_name": "Ari Johnson",
+    "outside_contact_relation": "cousin",
+    "alert_categories": [
+      "fraud_identity_theft",
+      "general_intel"
+    ],
+    "keyword_hits": [
+      "accounts",
+      "drops"
+    ],
+    "alert_confidence": 0.77,
+    "review_status": "unreviewed"
+  }
+]

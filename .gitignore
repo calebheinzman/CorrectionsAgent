@@ -1,0 +1,101 @@
+# Logs
+logs
+!services/orchestrator/logs/
+!services/orchestrator/logs/**
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+.env
+
+# Python/FastAPI/pytest artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# pytest cache
+.pytest_cache/
+
+.tox/
+.nox/
+.hypothesis/
+
+pip-wheel-metadata/
+
+dist/
+develop-eggs/
+downloads/
+sdist/
+wheels/
+
+.python-version
+
+.ipynb_checkpoints/
+
+# coverage reports
+.coverage
+coverage.xml
+htmlcov/
+
+# mypy cache
+.mypy_cache/
+
+# ruff cache
+.ruff_cache/
+
+# pytype cache
+.pytype/
+
+# virtualenvs
+.venv/
+venv/
+ENV/
+env/
+
+.direnv/
+.envrc
+
+.cache/
+
+*.sqlite
+*.sqlite3
+*.db
+
+# egg-info
+*.egg-info/
+.eggs/
+build/
+
+# front-end build outputs
+front_end/dist/
+front_end/dist-ssr/
+front_end/.vite/
+
+
+train/models/*.pkl
+train/models/*.json
+train/data/*.jsonl
+train/data/*.json
+
+# environment variables
+.env.*
+!.env.example

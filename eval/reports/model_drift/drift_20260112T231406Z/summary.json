@@ -1,0 +1,82 @@
+{
+  "generated_at": "2026-01-12T23:14:06.091050+00:00",
+  "baseline_window": "2026-01-05 to 2026-01-11",
+  "candidate_window": "2026-01-11T23:14:06.088754+00:00 to 2026-01-12T23:14:06.088754+00:00",
+  "baseline_metrics": {
+    "total_requests": 119,
+    "input": {
+      "question_length_mean": 32.554621848739494,
+      "question_length_p50": 30,
+      "question_length_p95": 53
+    },
+    "guardrails": {
+      "safety_deny_rate": 0.14285714285714285,
+      "relevance_deny_rate": 0.2549019607843137,
+      "safety_denied_count": 17,
+      "relevance_denied_count": 26
+    },
+    "agent": {
+      "call_rate": 0.6386554621848739,
+      "call_count": 76,
+      "tool_calls_mean": 1.763157894736842,
+      "tool_calls_p50": 2,
+      "latency_p50": 833.4570009742486,
+      "latency_p95": 1445.3924867766552,
+      "citations_mean": 2.8947368421052633,
+      "model_distribution": {
+        "gemini-2.0-flash-exp": 70
+      }
+    },
+    "errors": {
+      "error_rate": 0.05042016806722689,
+      "error_count": 6
+    }
+  },
+  "candidate_metrics": {
+    "total_requests": 120,
+    "input": {
+      "question_length_mean": 32.025,
+      "question_length_p50": 31,
+      "question_length_p95": 53
+    },
+    "guardrails": {
+      "safety_deny_rate": 0.15833333333333333,
+      "relevance_deny_rate": 0.2376237623762376,
+      "safety_denied_count": 19,
+      "relevance_denied_count": 24
+    },
+    "agent": {
+      "call_rate": 0.6416666666666667,
+      "call_count": 77,
+      "tool_calls_mean": 1.8571428571428572,
+      "tool_calls_p50": 2,
+      "latency_p50": 871.8828068667154,
+      "latency_p95": 1370.1509200471096,
+      "citations_mean": 2.8181818181818183,
+      "model_distribution": {
+        "gemini-2.0-flash-exp": 72
+      }
+    },
+    "errors": {
+      "error_rate": 0.041666666666666664,
+      "error_count": 5
+    }
+  },
+  "deltas": {
+    "input": {
+      "question_length_mean_delta": -0.5296218487394952
+    },
+    "guardrails": {
+      "safety_deny_rate_delta_pp": 1.5476190476190477,
+      "relevance_deny_rate_delta_pp": -1.7278198408076095
+    },
+    "agent": {
+      "tool_calls_mean_pct_change": 5.330490405117279,
+      "latency_p95_pct_change": -5.205614905148743
+    },
+    "errors": {
+      "error_rate_delta_pp": -0.8753501400560227
+    }
+  },
+  "alerts": []
+}
